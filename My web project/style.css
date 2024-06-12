@@ -1,0 +1,456 @@
+body{
+    background-image: url(photos/background3.png);
+    background-size: cover;
+}       
+.h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
+.h3{
+    text-align: center;
+    color: white;
+   padding-right: 20px;
+    margin-top: 0px;
+    text-decoration: underline;
+}
+
+.p{
+    text-align: center;
+    color: white;
+    margin-top: 0;
+}
+.fa.fa-facebook{
+    float: right;
+    margin-right: 7px;
+
+
+}
+.fa.fa-instagram{
+    float: right;
+    margin-right: 7px;
+
+}
+.fa.fa-google{
+    float: right;
+    margin-right: 7px;
+
+}
+.fa.fa-plane{
+    place-items: center;
+}
+.ime{
+    display: block;
+    color: black;
+    margin-bottom: 0px;
+    width: 100px;
+    margin-bottom: 4px;
+    text-align: center;
+    font-size: 15px;
+
+    
+}
+.prezime{
+    color: black;
+    display: block;
+    width: 100px;
+    font-size: 10px;
+    margin-bottom: 4px;
+    text-align: center;
+    font-size: 15px;
+    
+}
+.destination{
+    color: white;
+    font-size: 15px;
+}
+.dest{
+    font-size: 12px;
+    
+}
+.datum{
+    color: black;
+    display: block;
+    width: 100px;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+.google{
+    color: black;
+    display: block;
+    width: 100px;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.submit3{
+    font-size: 13px;
+    margin-top: 3px;
+}
+.numer{
+    
+    font-size: 15px;
+    margin-bottom: 4px;
+
+}
+.car{
+    color: white;
+    margin-bottom: 4px;
+    font-size: 15px;
+ 
+}
+
+
+
+.imgBali{
+    width: 200px; 
+    height: 200px;
+    float: left;
+    border-radius: 30px;
+}
+.imgBali:hover{
+    width: 400px;
+    height: 400px;
+    transition: 2s;
+    cursor: pointer;
+}
+.imgBali:not(:hover){
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+}
+.div_bali{
+    display: inline-block;
+    background-image: url(photos/balihover.webp);
+    background-size: cover; 
+    margin-bottom: 5px;
+    background-position: center;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: rgb(227, 131, 4);
+    text-align: center;
+}
+.bali_text:active{
+    font-size: 25px;
+    transition: 1s;
+    background-image: url(photos/balihoer.webp);
+    background-position: center;
+    background-size: cover;
+    color:white;
+    cursor: pointer;
+}
+.bali_text:not(:active){
+    font-size: 20px;
+    transition: 1s;
+    background-image: url(photos/balihoer.webp);
+    background-position: center;
+    background-size: cover;
+    color:white;
+    cursor: pointer;
+}
+
+
+
+.maldivi_div{
+    display: inline-block;
+    background-image: url(photos/maldiviback2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: aqua;
+    text-align: center;
+    
+}
+.maldivi_photo{
+    width: 200px; 
+    height: 200px;
+    float: left;
+    border-radius: 30px;
+
+}
+.maldivi_photo:hover{
+    width: 400px;
+    height: 400px;
+    transition: 2s;
+    cursor:pointer;
+}
+.maldivi_photo:not(:hover){
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+}
+.maldivi_text:active{
+    font-size: 23px;
+    transition: 1s;
+    color: white;
+    cursor: pointer;
+}
+.maldivi_text:not(:active){
+    font-size: 20px;
+    transition: 1s;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+.pariz{
+    display: inline-block;
+    background-image: url(photos/parizback.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: blueviolet;
+    text-align: center;
+
+}
+.paris_src{
+    width: 200px; 
+    height: 200px;
+    float: left;
+    border-radius: 30px;
+}
+
+.paris_src:hover{
+    width: 400px;
+    height: 400px;
+    transition: 2s;
+   cursor: pointer;
+    border-radius: 30px;
+}
+.paris_src:not(:hover){
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+    border-radius: 30px;
+}
+.pariz_text:active{
+    font-size: 22px;
+    transition: 1s;
+    color: black;
+    cursor: pointer;
+}
+.pariz_text:not(:active){
+    font-size: 17px;
+    transition: 1s;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+.dubai{
+    display: inline-block;
+    background-image: url(photos/dubaiback.webp);
+    background-size: cover;
+    margin-bottom: 5px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: rgb(178, 178, 178);
+    text-align: center;
+}
+.dubai_src{
+    width: 200px; 
+    height: 200px;
+    float: left;
+    border-radius: 30px;
+}
+.dubai_src:hover{
+    width: 400px;
+    height: 400px;
+    transition: 2s;
+    cursor: pointer;
+}
+.dubai_src:not(:hover){
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+}
+.dubai_text:active{
+    font-size: 30px;
+    transition: 1s;
+    color: black;
+    cursor: pointer;
+}
+.dubai_text:not(:active){
+    font-size: 17px;
+    transition: 1s;
+    color: black;
+    cursor: pointer;
+}
+
+
+.barselona{
+    display: inline-block;
+    background-image: url(photos/barca_back2.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: rgba(255, 149, 0, 0.444);
+    text-align: center;
+}
+.barselona_photo{
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-radius: 30px;
+}
+.barselona_photo:hover{
+    width: 400px;
+    height: 400px;
+    transition: 2s;
+    cursor: pointer;
+}
+.barselona_txt:active{
+    font-size: 28px;
+    transition: 1s;
+    cursor: pointer;
+}
+.barselona_photo:not(:hover){
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+}
+.barselona_txt:not(:active){
+    font-size: 17px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+
+.tokio{
+    display: inline-block;
+    border-style: solid;
+    border-radius: 30px;
+    background-image: url(photos/tokio_bck.jpg);
+    background-position: center;
+    font-size: 20px;
+    background-size: cover;
+    border-color: rgba(74, 6, 84, 0.582);
+    text-align: center;
+
+}
+.tokio_photo{
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-radius: 30px;
+}
+.tokio_photo:hover{
+    width: 400px;
+    height: 400px;
+    transition: 2s;
+    cursor: pointer;
+}
+.tokio_photo:not(:hover){
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+}
+.tokio_txt:active{
+    font-size: 28px;
+    transition: 1s;
+    cursor: pointer;
+}
+.tokio_txt:not(:active){
+    font-size: 20px;
+    transition: 1s;
+    cursor: pointer;
+}
+.page{
+    background-image: url(photos/background3.png);
+}
+.thank{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    margin-bottom: 0px;
+}
+.info{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+}
+.mail{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+}
+.submit{
+    margin-top: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+@keyframes slideInFromRight{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    } 
+}
+
+  h1{ 
+      animation: 1s ease-out 0s 1 slideInFromLeft;
+    }
+ h3{
+    animation: 2s ease-out 0s 1 slideInFromLeft;
+ }
+ .div_bali{
+    animation: 3s ease-out 0s 1 slideInFromRight;
+ }
+ .maldivi_div{
+    animation: 3s ease-out 0s 1 slideInFromLeft;
+ }
+ .pariz{
+    animation: 3s ease-out 0s 1 slideInFromRight;
+ }
+ .dubai{
+    animation: 3s ease-out 0s 1 slideInFromLeft;
+ }
+ .barselona{
+    animation: 3s ease-out 0s 1 slideInFromRight;
+ }.tokio{
+    animation: 3s ease-out 0s 1 slideInFromLeft;
+ }
+ .thank{
+    animation: 3s ease-out 0s 1 slideInFromLeft;
+ }
+.info{
+    animation: 3s ease-out 0s 1 slideInFromRight;
+}
+.mail{
+    animation: 3s ease-out 0s 1 slideInFromLeft;
+}
